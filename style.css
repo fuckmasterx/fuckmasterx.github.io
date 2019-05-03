@@ -1,0 +1,141 @@
+/* Style for our header texts */
+*{ font-family:Rockwell; }
+img{ border:none; outline:none; }
+a{ text-decoration:none; }
+
+/* ******************************* */
+
+		/* SEKTION NOLL */
+		
+/* ******************************* */
+#section0{ text-align:center; }
+
+#section0 h1 { font-size: 5em; font-family: arial,helvetica; color: white; margin:0; padding:0; text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black; }
+
+#section0 p { font-size:3em; font-family: arial,helvetica; color: white; margin:0; padding:1em; text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black; }
+
+#section0 h2 { font-size:4em; font-family: arial,helvetica; color: white; padding:0; text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black; }
+
+#section0{ background-image:url(Bilder/späckhuggare3.jpg);}
+
+/* Bottom menu */
+#infoMenu li a { color: #fff; }
+
+#section1 .bild_Wrapper{	width:82em; height:48em; margin:0 auto; }								/* Wrappar alla bilder */
+
+#section1 .bild_Wrapper .vänster, #section1 .bild_Wrapper .höger{	width:40em; height:40em; }		/* Styr vänster och höger bild_Wrapper divar */
+
+#section1 .bild_Wrapper .vänster{ float:left; }													/* Styr ENDAST bild_Wrapper vänster */
+
+#section1 .bild_Wrapper .höger{ float:right;}													/* Styr ENDAST bild_Wrapper höger */
+
+#section1 .bild_Wrapper .valar{ width:25em; height:15em; }										/* Styr alla bilder(valar) */
+
+.specifik_Wrapper{ width:40em; height:15em; }
+
+/* Specifik kordination för text */
+#info_Ett{ margin:1.5em 9.5em;}
+#info_Två{ margin:2.2em 10em; }
+#info_Tre{ margin:1.6em 10.2em; }
+#info_Fyra{ margin:2.4em 6em; }
+#info_Fem{ margin:2.7em 3.7em;}
+#info_Sex{ margin:2.8em 1.4em; }
+
+/* Valar till vänster */
+#section1 #val1{ float:left; }
+#section1 #val2{ float:left; }
+#section1 #val3{ float:left; }
+
+/* Valar till höger */
+#section1 #val4{ float:right; } 	
+#section1 #val5{ float:right; }
+#section1 #val6{ float:right; }
+
+/* ******************************* */
+
+		/* SEKTION ETT */
+		
+/* ******************************* */
+#slide1{ background: -webkit-gradient(linear, top left, bottom left, from(#093599), to(#031132)); background: -webkit-linear-gradient(#093599, #031132); background: linear-gradient(#093599, #031132); }
+
+/* ******************************* */
+
+		/* SEKTION TVÅ */
+		
+/* ******************************* */
+#section2{ background: -webkit-gradient(linear, top left, bottom left, from(#031132), to(#080F20)); background: -webkit-linear-gradient(#031132, #080F20); background: linear-gradient(#031132,#080F20); }
+
+#section2 .bild_Wrapper{ width:82em; height:48em; margin:0 auto; }								/* Wrappar alla bilder */
+
+#section2 .bild_Wrapper .vänster, #section2 .bild_Wrapper .höger{ width:40em; height:40em; }	/* Styr vänster och höger bild_Wrapper divar */
+
+#section2 .bild_Wrapper .vänster{ float:left; }													/* Styr ENDAST bild_Wrapper vänster */
+
+#section2 .bild_Wrapper .höger{ float:right; }													/* Styr ENDAST bild_Wrapper höger */
+
+#section2 .bild_Wrapper .valar{ width:25em; height:15em; }										/* Styr alla bilder(valar) */
+
+.specifik_Wrapper{ width:40em; height:15em; }													/* Styr alla bilder(valar) */
+
+.specifik_Wrapper p{ font-size:2.5em; color:white; position:absolute; opacity:.8; transition:opacity, text-shadow 1s ease-out; transition:.2s ease-out; }	/* Styr text vid valar */
+
+.vänster .specifik_Wrapper p{ margin:2em 10em; }												/* VÄNSTER - Styr text vid valar */
+
+.höger .specifik_Wrapper p{	margin-top:3em; float:right; }										/* HÖGER - Styr text vid valar */
+
+.vänster .specifik_Wrapper p{ margin:2em 10em; float:left; }									/* VÄNSTER - Styr text vid valar */
+
+.höger .specifik_Wrapper p{ margin-top:2em; float:right; }										/* HÖGER - Styr text vid valar */
+
+.vänster p:hover{ font-size:2.55em; }															/* HÖGER - Styr text vid valar */
+
+.höger p:hover{ font-size:2.55em; }
+
+/* Specifik kordination för text */
+#section2 #info_Ett{ margin:2em 8.5em; }
+
+#section2 #info_Två{ margin:2.1em 8.6em; }
+
+#section2 #info_Tre{ margin:2.2em 9em; }
+
+#section2 #info_Fyra{ margin:2.4em 6em; }
+
+#section2 #info_Fem{ margin:2.7em 4em; }
+
+#section2 #info_Sex{ margin:2.8em 2em; }
+
+/* Valar till vänster */
+#section2 #val1{ float:left; }
+
+#section2 #val2{ float:left; }
+
+#section2 #val3{ float:left; }
+
+/* Valar till höger */
+#section2 #val4{ float:right; }
+
+#section2 #val5{ float:right; }
+
+#section2 #val6{ float:right; }
+
+
+/* ******************************* */
+
+	/* SEKTION ETT SLIDE TVÅ */
+		
+/* ******************************* */
+#slide2{ background: -webkit-gradient(linear, top left, bottom left, from(#093599), to(#031132)); background: -webkit-linear-gradient(#093599, #031132); background: linear-gradient(#093599, #031132); }
+
+#slide2 a{ font-size:4em; color:black; }
+
+#slide2 a:hover{ text-decoration:underline; }
+
+#slide2 #wrapper{ width:40em; height:20em; margin:0 auto; border:12px solid #031132; transition:.3s ease-out; }
+
+#slide2 #wrapper:hover{ background:#031132; }
+
+#slide2 #wrapper:hover a{ color:white; }
+
+#slide2 ul li{ list-style-type:none; }
+
+

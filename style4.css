@@ -1,0 +1,198 @@
+*{ margin:0; padding:0; }
+
+body {
+	width:100%;
+	opacity:0.9;
+}
+/* Detta är kod för headern som börjar här */
+header {
+	width:100%;
+	height:7em;
+	background-color:#73b2f5;
+}
+header h1 {
+	font-size:2em;
+	float:left;
+	color:white;
+	padding:1em 1em;
+	position:absolute;
+}
+
+header p {
+	font-size:1.4em;
+	float:right;
+	padding:4em;
+	margin-left:1em;
+	margin-top:-2em;
+}
+#nav_wrapper {
+	width:100%;
+}
+#nav_wrapper a:hover {
+	color:black;
+}
+#nav_wrapper a {
+	color:white;
+	text-decoration:none;
+}
+	/* Detta är kod för headern som slutar här */
+	
+	
+	/* Kod för bilden på sidan börjar här */
+#bild img {
+	width:100%;
+	height:40em;
+	margin-top:0em;
+}
+	/* Kod för bilden på sidan slutar här */
+
+	/* Bilden för faktatext börjar här */
+#text {
+	height:auto;
+	width:70em;
+	margin:0 auto;
+}
+#text h1 {
+	font-size:2.2em;
+	padding:0.3em;
+	color:#2481A4;
+	text-decoration:underline;
+}
+#text p {
+	font-size:1.4em;
+	width:auto;
+	padding:0.5em;
+	color:#2481A4;
+}
+	/* Bilden för faktatext slutar här */
+audio {
+	padding:0.5em;
+}
+	
+	
+	/* Kontakta oss delen börjar här */
+#wrapper{
+ width:75em;
+ height:auto;
+ margin:2em auto;
+}
+.personer{
+ width:35em;
+ height:20em;
+ margin:1em auto;
+ /*border:7px solid #A6C2FC;*/
+ background:#73b2f5;
+ margin-left:2em;
+ transition:background 0.2s ease-out;
+ border-radius:4px;
+}
+.personer:hover{
+ background:#2F90B5;
+}
+.personer h1{ 
+ font-size:1.8em;
+ padding:0.8em 0em;
+ color:white;
+} 
+.personer ul{
+ margin:1em 0;
+}
+.personer ul li{
+ margin-top:0.5em;
+ list-style-type:none;
+}
+.personer ul li p{
+ font-size:1.5em;
+ color:white;
+}
+#lista_Wrapper{
+ max-width:30em;
+ min-width:28em;
+ height:auto;
+ margin:0 auto;
+}
+#Andre, #Sebastian, #Lucas{
+ display:inline-block;
+}	
+	/* kontakta oss delen slutar här */
+	
+	/* Om oss delen börjar här */
+
+#om {
+	width:50%;
+	height:80em;
+	margin:0 auto;
+}
+#om h1 {
+	font-size:2.2em;
+	padding:1em;
+	color:#2481A4;
+	text-decoration:underline;
+}
+#om p {
+	font-size:1.5em;
+	margin:1em 1.6em;
+	margin-top:-0.8em;
+	color:#2481A4;
+}
+#donera {
+	width:50%;
+	height:20em;
+	margin:0 auto;
+}
+#donera img {
+	margin-top:2em;
+	height:auto;
+	width:70%;
+}
+	/* Om oss delen slutar här */
+	
+	/* footer delen börjar här */
+footer{
+ width:100%;
+ margin-top:4em;
+ height:22em;
+ background:#73b2f5;
+}
+.footer_Wrapper{
+ width:84em;
+ height:auto;
+ margin:0 auto;
+}
+.contactUs_Wrapper{
+ width:20em;
+ height:auto;
+ display:inline-block;
+ float:left;
+ margin:0 3em;
+}
+.contactUs_Wrapper ul{
+ margin-top:.5em;
+}
+.contactUs_Wrapper ul li{
+ margin-top:.1em;
+ list-style-type:none;
+}
+.contactUs_Wrapper h1{
+ color:white;
+}
+.contactUs_Wrapper ul li p{
+ margin-left:0em;
+ font-size:1.2em;
+ color:white;
+}
+.contactUs_Wrapper ul li span{
+ font-weight:bold;
+}
+.center{
+ width:27em;
+ height:auto;
+ margin:1.5em;
+ }
+ footer a {
+	color:white;
+ }
+ footer a:hover {
+	color:Black;
+ }
+	/* footer delen slutar här */
